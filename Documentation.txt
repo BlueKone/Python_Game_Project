@@ -1,0 +1,53 @@
+main.py
+    handles how scenes are loaded, exited and how the next scene will be loaded.
+    if the next scene does not exist, it will raise an error and crash the program
+
+battle.py
+    handles the battle system
+    the parameteres are: special (true or false), and at least one enemy, up to nine
+    determines if the enemy or player is faster, and sets who will go first accordingly
+    calculates the attacks based on the random attack ranges of weapons/enemies and their base stats
+    options to: attack, use item, use special, run (defend option is still being developed)
+    calculates experience earned at teh end of the battle (does not calculate per enemy though!)
+    unknown what will happen if the player dies, if the enemies are all defeated, the battle ends
+
+scenes.py
+    handles defining the scenes/levels
+    no parameters (but could be made to contain them)
+    has a function for each scene
+    has a function for parsing a text (.txt) document to split each line apart and pass pieces of the list to xprint()
+    has xsave() and xload() functions that need to be updated regularly, if save fails, will return a error message
+    has xprint function:
+        can use values from the parser or can be used by itself
+        takes three mandatory parameters (name, dialogue, display) and two optional ones (textline, sourceScript)
+        -optional parameters are used for debugging
+        takes name and prints it with a background colour
+        display parameter decides how it will be printed to the screen
+        has error handlers which will crash the program if mandatory parameters are not set properly, helping debugging
+
+allies.py
+    handles all the variable stats of the allies
+    handles the usage of ally special abilities and item usage
+    has the class for the player and Heiku, later it will also have the class for spirits
+
+enemy.py
+    handles the creation and stats of all enemies
+
+items.py
+    handles defining the items
+
+setup.py
+    used to create an executable file of the program using the cxFreeze module-- use on main.py, all dependencies will be frozen as well
+    run it from CMD
+    using a beta version that is somewhat compatable with python 3.5.2, not the standard cxFreeze
+
+FILES:
+
+save:
+    contains all the save information
+
+sound:
+    contains all sound used in the game with winsound
+
+text:
+    contains all the .txt files used for parsing game dialogue

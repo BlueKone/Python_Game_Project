@@ -1,0 +1,6 @@
+system; You wait for quite a while until the elders finally arrive, it seems that they are in a rush.; [nl]
+elder; Help! Our village is under attack!; [nl]
+false; You there, we have summoned you because we have been hearing of strange reports in the area; [sp]
+false; but we never expected this!; [nl]
+false; I have seen you practicing your fighting techniques before, go and fight the monster!; [nl]
+heiku; I will come and fight with you as well!; [nl]

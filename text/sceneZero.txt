@@ -1,0 +1,5 @@
+heiku; Hey, wake up...!; [nl]
+false; You were dreaming. You seemed to be having a nightmare. Are you okay?; [nl]
+player; Ya, I'm fine... What's wrong?; [nl]
+heiku; It must be a bad omen that you would have a nightmare tonight. The elders council summons you, it seems that something has happened.; [nl]
+player; hmm... the elders council does not summon commoners lightly, it must be important. I will be off at once.; [ss]

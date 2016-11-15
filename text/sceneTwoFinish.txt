@@ -1,0 +1,4 @@
+system; You deal the final blow and the shadow monster collapses on the ground.; [nl]
+elder; What is that vile monster? Sienna cannot be pleased about this, please, go and request an audience ; [pr]
+false; with him and see if you can find out any more information.; [nl]
+player; Yes, I agree that we will only get answers by going directly to Sienna, I will be off at once; [nl]
